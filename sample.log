@@ -1,5 +1,5 @@
-2025-10-15 10:00:01 INFO: Uygulama başlatıldı.
-2025-10-15 10:00:15 WARNING: Kaynak kullanımı yüksek.
-2025-10-15 10:00:40 ERROR: Veritabanı bağlantısı kesildi.
-2025-10-15 10:01:05 INFO: Kullanıcı oturumu açtı.
-2025-10-15 10:01:10 ERROR: Kritik Hata: İşlem başarısız oldu.
+2025-10-15 10:00:01 INFO: Application started.
+2025-10-15 10:00:15 WARNING: High resource utilization.
+2025-10-15 10:00:40 ERROR: Database connection lost.
+2025-10-15 10:01:05 INFO: User session initiated.
+2025-10-15 10:01:10 ERROR: Critical Error: Operation failed.

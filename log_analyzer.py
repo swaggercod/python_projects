@@ -25,12 +25,12 @@ def analyze_log(file_path):
             elif 'INFO' in line:
                 info_count += 1
 
-    print("\n--- Log Analizi Özeti ---")
-    print(f"Toplam Satır Sayısı: {total_lines}")
-    print(f"INFO (Bilgi) Sayısı: {info_count}")
-    print(f"WARNING (Uyarı) Sayısı: {warning_count}")
-    print(f"ERROR (Hata) Sayısı: {error_count}")
-    print("-------------------------\n")
+    print("\n--- Log Analysis Summary ---")
+    print(f"Total Lines Processed: {total_lines}")
+    print(f"INFO Count: {info_count}")
+    print(f"WARNING Count: {warning_count}")
+    print(f"ERROR Count: {error_count}")
+    print("----------------------------\n")
 
 if __name__ == "__main__":
     analyze_log(LOG_FILE)
